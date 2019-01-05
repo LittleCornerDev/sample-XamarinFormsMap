@@ -3,7 +3,6 @@ using System.Collections; //Hashtable
 using System.Collections.Generic; //List
 
 using Android.App; //Activity, Icon, Theme, MainLauncher, ConfigurationChange
-using Android.Content; //DialogInterface
 using Android.Content.PM; //Permission
 using Android.Runtime;
 using Android.Support.V4.App; //ActivityCompat
