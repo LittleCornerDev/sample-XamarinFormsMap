@@ -30,7 +30,7 @@ This includes the emulator, HAXM installer, NDK, and whatever else Visual Studio
 
 
 ## Having a Test Project
-1. Create a blank forms app in Visual Studio.  Basically, everything [here](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/get-started/hello-xamarin-forms/quickstart "Xamarin Forms Quickstart") until Step 4.
+1. Create a blank forms app in Visual Studio.  Basically, everything [here](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/get-started/hello-xamarin-forms/quickstart "Xamarin Forms Quickstart") until Step 4. ** Do not use a '-' in your project name.  It will let you, but you will get a `namespace name 'App' could not be found` error for `YOUR_XAMARIN_FORMS_APP_NAME.iOS/Main.Activity.cs`. **
 1. Verify your set-up by [deploying the app](#deploy).
 
 
@@ -43,7 +43,7 @@ These are how you get the Xamarin tools you want.
 When you open your solution (`*.sln`) in Visual Studio, you will see three project folders: 
 * `YOUR_XAMARIN_FORMS_APP_NAME` is shared
 * `YOUR_XAMARIN_FORMS_APP_NAME.Android` is for Android only
-* `YOUR_XAMARIN_FORMS_APP_NAME` is for iOS only
+* `YOUR_XAMARIN_FORMS_APP_NAME.iOS` is for iOS only
 
 They each have their own "Dependencies" or "Packages" folder. **This is important to note if you want to make sure a package you think you have is actually there.**
 
