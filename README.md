@@ -1,7 +1,9 @@
 # sample-XamarinFormsMap
 This is a very basic example of a Xamarin.Forms map for anyone completely new to Xamarin.  
 No pins, no fancy displays.  Just displaying the native map for both iOS and Android.  
-Because that alone took a couple of days of digging through Google and StackOverflow to figure out as most tutorials seem to be outdated.
+Because that alone could take a couple of days of digging through Google and StackOverflow from outdated tutorials or missing info.
+
+That being said, [this](https://xamarinhelp.com/xamarin-forms-maps/) was the best tutorial I found.  It just did not have info on the additional code required for Android SDK >= 6.0 (API 23). For that, go to [this documentation](https://developer.android.com/training/permissions/requesting#java) for Java snippets you can tweak into C#.
 
 The following are steps to replicate this work on your own in case you want to verify you have everything set-up correctly.  
 I.e., making sure a blank project is deploying successfully before jumping ahead and just copying everything in the repo.
