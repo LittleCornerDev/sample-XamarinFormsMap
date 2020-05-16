@@ -53,7 +53,7 @@ They each have their own "Dependencies" or "Packages" folder. **This is importan
 
 #### Get Xamarin.Forms.Map
 1.  Go to`Visual Studio > Project > Add NuGet packages...` and search for `Xamarin.Forms.Maps`
-1.  Add `Xamarin.Forms.Maps` to all three projects.  Yes, you have to navigate to each project folder and repeat the step above.
+1.  Add `Xamarin.Forms.Maps` to all three projects.  
 
 ### Code
 Compare your code with the code in this repo to see what was added to display a basic native map on the page -- a Google map for Android and an Apple map for iOS.  
