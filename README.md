@@ -1,4 +1,4 @@
-# sample-app-XamarinFormsMap
+# sample-XamarinFormsMap
 This is a very basic example of a Xamarin.Forms map for anyone completely new to Xamarin.  
 No pins, no fancy displays.  Just displaying the native map for both iOS and Android.  
 Because that alone could take a couple of days of digging through Google and StackOverflow from outdated tutorials or missing info.
